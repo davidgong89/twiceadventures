@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
+    
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.5.css" />
+    
+    <title>Twice Adventures</title>
+
+</head>
+
+<body>
+    <div class="app">
+    
+    	<!-- HOME PAGE START -->
+    	<div data-role="page" id="home">
+    		<div data-role="header" data-position="fixed">
+    			<a href="#home-nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+    			<h1>HOME</h1>
+    		</div>
+    		
+    		<!-- HOME PANEL START -->
+    		<div data-role="panel" data-display="overlay" data-theme="b" id="home-nav-panel" class="nav-menu">
+    			<ul data-role="listview">
+    				<li data-icon="delete"><a href="#" data-rel="close">Close Menu</a></li>
+    				<li><a href="#home">Home</a></li><li><a href="#chapter1">Chapter 1</a></li>
+    				<li><a href="#portal" rel="external">Chapter 2</a></li>
+    			</ul>
+		    </div>
+    		<!-- HOME PANEL END -->
+    		
+    		<!-- CONTENTS START-->
+    		<div data-role="content">
+    			Dear Once,<br><br>
+    			Welcome to Twice Adventures! In your wildest and craziest dream, you have become the trustworthy and dependable personal assistant to Twice and get to accompany them on their crazy adventures! Buckle and enjoy the ride!<br><br>
+    			PS: Oops, did I mention there is an "official" employment letter for you? <br><br>
+    				
+    			Letter:<a href="#employment_letter" data-rel="popup" data-position-to="window" data-transition="flow"><img src="img/letter.png" class="letter"></a><br>
+				App Updates:<a href="#app_updates" data-rel="popup" data-position-to="window" data-transition="flow"><img src="img/alarm.png" class="letter"></a><br><br>
+    		
+    			<img src="img/twice-group.png" width="100%">
+    		</div>
+    		<!-- CONTENTS END-->
+    		
+			<!-- LETTER START-->
+			<div data-role="popup" id="employment_letter" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+			    <h3>Letter</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Hi Once,<br><br>Thank you for submitting your job application to express your interest to become the personal assistant of Twice! After putting you through our initial online assessments, phone interviews and panel interviews with our directors, we have reached the conclusion that you are the right candidate for this role! <br><br> Congratulations! And may your bond with Twice grow closer! ;)<br><br>Regards,<br>JYP Ent.</p>
+			        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Accept !</a>
+			    </div>
+			</div>	
+			<!-- LETTER END-->
+			
+			<!-- APP UPDATES START-->
+			<div data-role="popup" id="app_updates" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#ffef99">
+			    <h3>Updates</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Hi Once,<br><br>Below are the list of updates:
+					<ul>
+						<li>Version 1 Released</li>
+					</ul>
+			    </p>
+			        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Cool</a>
+			    </div>
+			</div>	
+			<!-- APP UPDATES END-->
+    		
+    		
+    		<div data-role="footer" data-position="fixed">
+    			<h3>Twice Adventures</h3>
+    		</div>
+    	</div>
+    	<!-- HOME PAGE END -->
+    	
+    	
+    	<!-- CHAPTER 1 PAGE START -->
+    	<div data-role="page" id="chapter1">
+    		<div data-role="header" data-position="fixed">
+    			<a href="#rest" data-icon="home" data-iconpos="notext" data-rel="popup" data-position-to="window" data-transition="flow"></a>
+    			<h1>CHAPTER 1</h1>
+    		</div>
+
+    		<!-- CONTENTS START -->
+    		<div data-role="content">
+    			<div style="text-align:center"><img src="img/exclamation-mark.png" class="exclamation"><b>BREAKING NEWS!</b><img src="img/exclamation-mark.png" class="exclamation"></div><br>
+    			Recently, immediately following the release of their new HOT single "Likey", Twice fans all over the world went CRAZY! Literally...they went nuts, they were all SHOOK! (At this point, why am I even surprised?!) <br><br> The manager of Twice informed them that to calm down the madness of the current situation, they need to immediately bring forward their tour dates to meet their fans, and their first stop is CANADA!!(obviously where it all started...where the video of "Likey" was shot! Okay..breathe..)<br><br>
+    			<i>Your Mission:</i>
+    			<ol>
+    				<li>Know everything about Twice (Duh, this is a given...after all you single-handledly eliminated 5000 over applicants for this PA role...)<img src="img/laugh.png" class="laugh"></li>
+    				<li>Take care of our girls! (food,clothes etc)</li>
+    				<li>Have FUN!</li>
+    			</ol>
+    			<i>Survival Tips:</i>
+    			<ol>
+    				<li>Record your answers somewhere...</li>
+    				<li>If you manage to clear a chapter and receive the secret code, record it somewhere...</li>
+    			</ol>
+    			
+    			<a href="#chapter1-1" class="ui-btn ui-mini">BEGIN</a>
+    			
+    			
+    		</div>
+    		<!-- CONTENTS END -->
+    		
+    		<!-- ESCAPE START-->
+			<div data-role="popup" id="rest" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+			    <h3>Rest</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Are you sure you want to go back to home? Progress will not be saved...</p>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">No</a>
+			        <a href="#home" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Yes</a>
+			    </div>
+			</div>	
+			<!-- ESCAPE END-->
+
+    		<div data-role="footer" data-position="fixed">
+    			<h3>Twice Adventures</h3>
+    		</div>
+    	</div>
+    	<!-- CHAPTER 1 PAGE END -->
+    	
+    	
+    	<!-- CHAPTER 1-1 PAGE START -->
+    	<div data-role="page" id="chapter1-1">
+    		<div data-role="header" data-position="fixed">
+    			<a href="#rest-chap-1-1" data-icon="home" data-iconpos="notext" data-rel="popup" data-position-to="window" data-transition="flow"></a>
+    			<h1>CHAPTER 1-1</h1>
+    		</div>
+
+    		<!-- CONTENTS START -->
+    		<div data-role="content">
+    		
+    			<div style="text-align:center"><b>CANADIAN AIRPORT</b></div><br>
+    			
+    			<div><img src="img/privatejet.jpg" width="100%"></div>
+    			*The private jet that Twice has just landed on the soil of Toronto!*<br>
+    			<div align="center">~ ~ ~ ~ ~</div>
+    			<div class="momo"><img src="img/momo.jpg" class="face-shot"><br>Momo: Finally, after about 16 hours of non-stop flight from S.Korea to Toronto, we are here!</div>
+    			<div class="chaeyoung"><img src="img/chaeyoung.jpg" class="face-shot"><br>Chaeyoung: Whee! I am so EXCITED!</div>
+				<div class="dahyun"><img src="img/dahyun.jpg" class="face-shot"><br>Dahyun: Hahas..correction, excited and TIRED!</div>
+				<div class="sana"><img src="img/sana.jpg" class="face-shot"><br>Sana: OMG! Sis, you totally read my mind! Like my body feels so sore, don't you feel the same way Tzu?</div>
+				<div class="tzuyu"><img src="img/tzuyu.jpg" class="face-shot"><br>Tzuyu:*Giving a slight smirk* Duh...I am hungry too! Hehe..I think I can swallow an elephant! KIDDING! XD</div>
+				<div class="jeongyeon"><img src="img/jeongyeon.jpg" class="face-shot"><br>Jeongyeon:*Stomach grumbling* Oops...looks like I am not the only one..hehe..</div>
+				<div class="jihyo"><img src="img/jihyo.jpg" class="face-shot"><br>Jihyo:*Hands to mouth* OMG! Jeongyeon, I heard that..that's so cute! Actually, I am really starving too..*drooling*</div>
+				<div class="mina"><img src="img/mina.jpg" class="face-shot"><br>Mina:Hahas...girls, don't worry! Remember our highly dependable PA is here with us? I am sure there is food options for us somewhere...</div>
+				<div class="nayeon"><img src="img/nayeon.jpg" class="face-shot"><br>Nayeon:Thank God for our resourceful PA hahas! *looks at you hopefully with a wink*</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:Hahas,yes girls I know, I know, don't worry, I brought some kimchi sandwiches and rice cakes just in cases like this! Let me see...where did I put them...</div>
+				<div><img src="img/spicy-rice-cake.jpg" width="100%"></div>
+				
+				<div class="cheeky"><img src="img/cheekygirl.png" class="face-shot"><br>Cheeky girl:Oh...is this bag of food what you are looking for? I found it somewhere just now...you know what they say..finders keepers...whahaha</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:HEY! It is wrong to take something that does not belong to you! Give it back!</div>
+				<div class="cheeky"><img src="img/cheekygirl.png" class="face-shot"><br>Cheeky girl:Sure..I heard that you are one of Twice's biggest fans..want to accept an easy challenge? If you win, I will give it back...</div>
+				<div class="jihyo"><img src="img/jihyo.jpg" class="face-shot"><br>Jihyo:OMG!Is that our #1 crazy fan CHEEKY GIRL!?</div>
+				<div class="tzuyu"><img src="img/tzuyu.jpg" class="face-shot"><br>Tzuyu:Wow...how did she manage to follow us here? I mean...this is our private jet after all...looks like our security failed us again...being famous is hard..sigh..</div>
+				<div class="sana"><img src="img/sana.jpg" class="face-shot"><br>Sana:PA, whatever the challenge she brings, you can do it! We have faith in you!</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:ALRIGHT, BRING IT ON!</div>
+    			<a href="#rest-chap-1-1-challenge" class="ui-btn ui-mini" data-rel="popup" data-position-to="window" data-transition="flow">ACCEPT</a>
+    		</div>
+    		<!-- CONTENTS END -->
+    		
+    		<!-- CHAPTER1-1 CHALLENGE START-->
+			<div data-role="popup" id="rest-chap-1-1-challenge" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+			    <h3>Challenge</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Who is the youngest Japanese member in Twice? <br>(wrong answer will bring you back to previous page)</p>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Nayeon</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Chaeyoung</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Dahyun</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Jeongyeon</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Jihyo</a>
+					<a href="#chapter1-2" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Mina</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Momo</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Nayeon</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Sana</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Tzuyu</a>
+			    </div>
+			</div>
+			<!-- CHAPTER1-1 CHALLENGE END-->
+    			
+    		<!-- ESCAPE START-->
+			<div data-role="popup" id="rest-chap-1-1" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+			    <h3>Rest</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Are you sure you want to go back to home? Progress will not be saved...</p>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">No</a>
+			        <a href="#home" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Yes</a>
+			    </div>
+			</div>	
+			<!-- ESCAPE END-->
+
+    		<div data-role="footer" data-position="fixed">
+    			<h3>Twice Adventures</h3>
+    		</div>
+    	</div>
+    	<!-- CHAPTER 1-1 PAGE END -->
+    	
+    	
+    	
+    	
+    	<!-- CHAPTER 1-2 PAGE START -->
+    	<div data-role="page" id="chapter1-2">
+    		<div data-role="header" data-position="fixed">
+    			<a href="#rest-chap-1-2" data-icon="home" data-iconpos="notext" data-rel="popup" data-position-to="window" data-transition="flow"></a>
+    			<h1>CHAPTER 1-2</h1>
+    		</div>
+
+    		<!-- CONTENTS START -->
+    		<div data-role="content">
+    			 <div style="text-align:center"><b>*NEXT ROUND*</b><a data-icon="heart"></a></div>
+    			<div style="text-align:center"><b>LUGGAGE MISSING</b></div><br>
+    			<div><img src="img/luggages.jpg" width="100%"></div>
+    			<div align="center">~ ~ ~ ~ ~</div>
+    			<div class="momo"><img src="img/momo.jpg" class="face-shot"><br>Momo:Nom nom nom! This kimchi sandwich is DELICIOUS!</div>
+    			<div class="chaeyoung"><img src="img/chaeyoung.jpg" class="face-shot"><br>Chaeyoung: YES! This spicy rice cake too! Dah..try it!</div>
+				<div class="dahyun"><img src="img/dahyun.jpg" class="face-shot"><br>Dahyun:*Took a bite* Hmm! Wow..did PA make this?!</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:*blush*Hur hur..not really..I bought it from the street store..glad that you loved it!*blushed more*</div>
+				<div><img src="img/korean-street-food.jpg" width="100%"></div>
+				<div class="dahyun"><img src="img/dahyun.jpg" class="face-shot"><br>Dahyun:Omg...STREET FOOD?! My favourite! Can't believe I miss home already...</div>
+				<div class="momo"><img src="img/momo.jpg" class="face-shot"><br>Momo:Dah...don't say that, we need to stay strong for our fans! Trust me once this is all over, I will buy you as much street food as you can eat! WAHAHA!</div>
+				<div class="dahyun"><img src="img/dahyun.jpg" class="face-shot"><br>Dahyun:OK!Just recorded that on my phone..too late for you to back out now! HEHE..</div>
+				<div class="momo"><img src="img/momo.jpg" class="face-shot"><br>Momo:...sure...I hope you don't end up getting food poisoning...XD</div>
+				<div class="sana"><img src="img/sana.jpg" class="face-shot"><br>Sana:*Mouth full..half mumbling*You girls are silly...Let's go retrieve our luggages and then change our outfits before meeting our fans for meet and greet!</div>
+				<div class="tzuyu"><img src="img/tzuyu.jpg" class="face-shot"><br>Tzuyu:I know the way, follow me!</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:*GASP*Girls! No running!! Wait for your security guards to arrive first, they will keep you safe!</div>
+				<div class="jeongyeon"><img src="img/jeongyeon.jpg" class="face-shot"><br>Jeongyeon:You worry too much, relax...I heard Canada is a really safe place...</div>
+				<div class="jihyo"><img src="img/jihyo.jpg" class="face-shot"><br>Jihyo:Yep! Let's follow Tzu...</div>
+				<div><img src="img/mina.jpg" class="face-shot"><br>Mina:Hahas...besides, we are 9 tough girls, who dares to do bad things to us?</div>
+				<div class="nayeon"><img src="img/nayeon.jpg" class="face-shot"><br>Nayeon:That's right! Oh...is that the conveyor belt in front! I think that's the one with our luggages.. </div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:*Relieved as the security guards arrived* Phew..yes girls, this is the correct belt..now we just need to wait for our luggages..</div>
+				<div><img src="img/securityguard.jpg" width="100%"></div>
+				<div class="cheeky"><img src="img/cheekygirl.png" class="face-shot"><br>Cheeky girl:Hey there...nice to meet you again...did I mention that I managed to secure your luggages already? I mean, I don't want to brag but my Dad has got connections you know...keke</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:What the...who are you really? What do you want? SECURITY! SECURITY!</div>
+				<div class="cheeky"><img src="img/cheekygirl.png" class="face-shot"><br>Cheeky girl:Ah ah ah...I would't do that if I were you...If you don't stop right now I will start crying and tell people that you try to assault me..Let's see who win!</div>
+				<div class="tzuyu"><img src="img/tzuyu.jpg" class="face-shot"><br>Tzuyu:Hey, give that small girl a break..maybe she is just a crazy fan that needs some Twice love *wink*</div>
+				<div class="cheeky"><img src="img/cheekygirl.png" class="face-shot"><br>Cheeky girl:*Blush* Hey Tzuyu! Yes..you are right! I am crazy about Twice! (And I already had all your luggages with me keke..)</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:Alright...what must I do so that you will return all the luggages?</div>
+				<div class="cheeky"><img src="img/cheekygirl.png" class="face-shot"><br>Cheeky girl:Well well well..if you say so...let's have another round of pop-quiz shall we? HAHAHA...if you win, the luggages are all yours..</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:Alright, BRING IT ON!</div>
+				
+    			<a href="#rest-chap-1-2-challenge" class="ui-btn ui-mini" data-rel="popup" data-position-to="window" data-transition="flow">ACCEPT</a>
+    		</div>
+    		<!-- CONTENTS END -->
+    		
+    		<!-- CHAPTER1-2 CHALLENGE START-->
+			<div data-role="popup" id="rest-chap-1-2-challenge" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+			    <h3>Challenge</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Which member is wearing a Bulls 23 jersey crop-top in "Like OHH-AAH"? <br>(wrong answer will bring you back to previous page)</p>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Nayeon</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Chaeyoung</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Dahyun</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Jeongyeon</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Jihyo</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Mina</a>
+					<a href="#chapter1-3" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Momo</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Nayeon</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Sana</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Tzuyu</a>
+			    </div>
+			</div>
+			<!-- CHAPTER1-2 CHALLENGE END-->
+    			
+    		<!-- ESCAPE START-->
+			<div data-role="popup" id="rest-chap-1-2" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+			    <h3>Rest</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Are you sure you want to go back to home? Progress will not be saved...</p>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">No</a>
+			        <a href="#home" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Yes</a>
+			    </div>
+			</div>	
+			<!-- ESCAPE END-->
+
+    		<div data-role="footer" data-position="fixed">
+    			<h3>Twice Adventures</h3>
+    		</div>
+    	</div>
+    	<!-- CHAPTER 1-2 PAGE END -->
+    	
+    	
+    	
+    	<!-- CHAPTER 1-3 PAGE START -->
+    	<div data-role="page" id="chapter1-3">
+    		<div data-role="header" data-position="fixed">
+    			<a href="#rest-chap-1-3" data-icon="home" data-iconpos="notext" data-rel="popup" data-position-to="window" data-transition="flow"></a>
+    			<h1>CHAPTER 1-3</h1>
+    		</div>
+
+    		<!-- CONTENTS START -->
+    		<div data-role="content">
+    			 <div style="text-align:center"><b>*NEXT ROUND*</b><a data-icon="heart"></a></div>
+    			<div style="text-align:center"><b>HOTEL DRAMA</b></div>
+    			<div><img src="img/hotel.jpg" width="100%"></div>
+    			It was already late at night, Twice is super exhausted from their long flight and needed their rest and beauty sleep badly...<br>
+    			
+    			<div align="center">~ ~ ~ ~ ~</div>
+    			<div class="momo"><img src="img/momo.jpg" class="face-shot"><br>Momo:Thank God! We finally arrived at our 5 star hotel!</div>
+    			<div class="chaeyoung"><img src="img/chaeyoung.jpg" class="face-shot"><br>Chaeyoung:Wow! This place look so luxurious...so much better than our dorms...</div>
+				<div class="dahyun"><img src="img/dahyun.jpg" class="face-shot"><br>Dahyun:Literally...it is moment like this that reminded me that as a Kpop star, we get to enjoy these perks..so thankful..</div>
+				<div class="sana"><img src="img/sana.jpg" class="face-shot"><br>Sana:YES! I feel so blessed! Whee! Feel like a princess hehe...</div>
+				<div class="tzuyu"><img src="img/tzuyu.jpg" class="face-shot"><br>Tzuyu:Erm...you are a princess...we don't need a 5 star hotel to prove that XD</div>
+				<div class="sana"><img src="img/sana.jpg" class="face-shot"><br>Sana:HAHAHA! Thanks you for booking this nice place for us!</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:*blush*Hur hur..you are welcome! This is the least I could do...</div>
+				<div class="jeongyeon"><img src="img/jeongyeon.jpg" class="face-shot"><br>Jeongyeon:This place has a really decent pool too..love it..</div>
+				<div class="jihyo"><img src="img/jihyo.jpg" class="face-shot"><br>Jihyo:I hope they have nice breakfast buffets hahas...</div>
+				<div><img src="img/mina.jpg" class="face-shot"><br>Mina:Jihyo...stop it hahas...all you think about it food!</div>
+				<div class="nayeon"><img src="img/nayeon.jpg" class="face-shot"><br>Nayeon:Hey, do you know which rooms we are staying in for the night? Can't wait to take a hot shower hehe..</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:Of course, let me quickly check in for you girls... </div>
+				<div><img src="img/check-in.jpg" width="100%"></div>
+				<div class="staff"><img src="img/staff.jpg" class="face-shot"><br>Staff:Hey there! Welcome to our fancy hotel, can I have your reservation documents please?</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:Here you go.</div>
+				<div class="staff"><img src="img/staff.jpg" class="face-shot"><br>Staff:Alright, let me pull up the data real quick for verification...so the reservation in the system corresponds to .. let me see.. hmm... wait a sec... in the system it is reflected as Cheeky girl?! Thats funny... not sure if there is a glitch somewhere...let me double check...</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:WHAT!?! No way...what is happening..what did she do this time...</div>
+				<div><img src="img/phone.jpg" class="face-shot"><br>Phone:RING RING RING!</div>
+				<div class="cheeky"><img src="img/cheekygirl.png" class="face-shot"><br>Cheeky girl: Hey friend..erm..sorry to break this to you but I got my computer geeks to work their magic with the hotel's reservation system...and managed to secure the hotel suites for me and my friends, isn't that just convenient?</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:I can't believe what I am hearing right now..if you are really a fan of Twice, you should let them have proper rest and not deprive them of their room to rest...</div>
+				<div class="cheeky"><img src="img/cheekygirl.png" class="face-shot"><br>Cheeky girl:Well, I don't ask for much, I just want them to notice me and love me...more than the others...is that too much to ask?</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:Sure, that's easy, just get me fired and you take over my role. You will get all the love you want from them.*losing it*</div>
+				<div class="cheeky"><img src="img/cheekygirl.png" class="face-shot"><br>Cheeky girl:Nah...that's a tough job and besides, I love playing games with you...it's more interesting this way...</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:Alright, whatever game that you are thinking...BRING IT ON!</div>
+				
+    			<a href="#rest-chap-1-3-challenge" class="ui-btn ui-mini" data-rel="popup" data-position-to="window" data-transition="flow">ACCEPT</a>
+    		</div>
+    		<!-- CONTENTS END -->
+    		
+    		<!-- CHAPTER1-3 CHALLENGE START-->
+			<div data-role="popup" id="rest-chap-1-3-challenge" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+			    <h3>Challenge</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Which member can duplicate herself in "Signal"? <br>(wrong answer will bring you back to previous page)</p>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Nayeon</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Chaeyoung</a>
+					<a href="#chapter1-4" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Dahyun</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Jeongyeon</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Jihyo</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Mina</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Momo</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Nayeon</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Sana</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Tzuyu</a>
+			    </div>
+			</div>
+			<!-- CHAPTER1-3 CHALLENGE END-->
+    			
+    		<!-- ESCAPE START-->
+			<div data-role="popup" id="rest-chap-1-3" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+			    <h3>Rest</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Are you sure you want to go back to home? Progress will not be saved...</p>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">No</a>
+			        <a href="#home" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Yes</a>
+			    </div>
+			</div>	
+			<!-- ESCAPE END-->
+
+    		<div data-role="footer" data-position="fixed">
+    			<h3>Twice Adventures</h3>
+    		</div>
+    	</div>
+    	<!-- CHAPTER 1-3 PAGE END -->
+    	
+    	
+    	
+    	<!-- CHAPTER 1-4 PAGE START -->
+    	<div data-role="page" id="chapter1-4">
+    		<div data-role="header" data-position="fixed">
+    			<a href="#rest-chap-1-4" data-icon="home" data-iconpos="notext" data-rel="popup" data-position-to="window" data-transition="flow"></a>
+    			<h1>CHAPTER 1-4</h1>
+    		</div>
+
+    		<!-- CONTENTS START -->
+    		<div data-role="content">
+    			 <div style="text-align:center"><b>*NEXT ROUND*</b><a data-icon="heart"></a></div>
+    			<div style="text-align:center"><b>HOTEL DRAMA</b></div>
+    			<div><img src="img/tour-bus.jpg" width="100%"></div>
+    			Admitting defeat from the previous night, Cheeky girl reversed the hack done to the hotel's reservation system and Twice got back their rooms. They all had a well-deserved rest, thanks to you! But...is this really the end? Will Twice finally get to meet their fans? <br>*BEEP! BEEP!* The bus is here to bring the girls to the venue of their meet and greet...<br>
+    			
+    			<div align="center">~ ~ ~ ~ ~</div>
+    			<div class="momo"><img src="img/momo.jpg" class="face-shot"><br>Momo:Whee!! The bus is here! I can hear it coming from downstairs. Let us board the bus!</div>
+    			<div class="chaeyoung"><img src="img/chaeyoung.jpg" class="face-shot"><br>Chaeyoung:*Pulling her hair into ponytails*..Alright..almost there...</div>
+				<div class="dahyun"><img src="img/dahyun.jpg" class="face-shot"><br>Dahyun:I actually feel a little nervous..Let me use the bathroom...</div>
+				<div class="sana"><img src="img/sana.jpg" class="face-shot"><br>Sana:*Pursing her lips and reapplying her lipstick ensuring that it looks perfect* Okay Momo...almost ready...almost</div>
+				<div class="tzuyu"><img src="img/tzuyu.jpg" class="face-shot"><br>Tzuyu:Do you think my dress looks okay on me?</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:*blush* Why of course, everything you wear looks good on you! I doubt it's the dress that makes you pretty...you make your clothes look pretty HAHAHA</div>
+				<div class="tzuyu"><img src="img/tzuyu.jpg" class="face-shot"><br>Tzuyu:Aww...you and your sweet mouth...*Blew an air kiss at you*</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:*Internal system failure*...I think I can R.I.P now...erm anyway..girls...we should get going...the fans are waiting...</div>
+				<div class="jeongyeon"><img src="img/jeongyeon.jpg" class="face-shot"><br>Jeongyeon:Alright, I am just checking that we brought all our equipments..</div>
+				<div class="jihyo"><img src="img/jihyo.jpg" class="face-shot"><br>Jihyo:Yes, please make sure that we can enough markers and pens to sign albums for our fans, last time we almost ran out of markers lol...</div>
+				<div><img src="img/mina.jpg" class="face-shot"><br>Mina:Omg...I remembered that time..it was so funny!</div>
+				<div class="nayeon"><img src="img/nayeon.jpg" class="face-shot"><br>Nayeon:Yeah...we almost had to ask you to buy more markers for us hahas...</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:HAHA...it would not happen this time, we had enough markers for sure..Alright...girls, let's go now! </div>
+				<div><img src="img/canada-road.jpg" width="100%"></div>
+				<div class="nayeon"><img src="img/nayeon.jpg" class="face-shot"><br>Nayeon:Hmm...do you know when we are reaching the venue...we had been on the road for almost an hour..</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:Yes...this is quite strange, we should have reached the place already..something is off...</div>
+				<div class="jeongyeon"><img src="img/jeongyeon.jpg" class="face-shot"><br>Jeongyeon:All I see are trees...like where are our fans?</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PS:Let me check with the driver...hey man, are you sure this is the right way? We should have reached the concert hall a while ago...is there some sort of mistake?!</div>
+				<div class="staff"><img src="img/bus-driver.jpg" class="face-shot"><br>Driver:OH NO! Dude...I think you and your girls are on the wrong bus! This bus goes directly to the nature reserve!</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PS:No freaking way...this is the right bus as I had checked the bus plate number earlier and it matched the number on the reservation form..what could have gone wrong..how am I going to explain to the girls?!? *STRESS*</div>
+				
+				<div><img src="img/phone.jpg" class="face-shot"><br>Phone:RING RING RING!</div>
+				<div class="cheeky"><img src="img/cheekygirl.png" class="face-shot"><br>Cheeky girl: Hey friend..I think I forgot to mention to you that I meddled with the bus scheduling system using some of my father's connections keke and I intend to bring you and the girls to my father's vacation house in the forest, where I plan to welcome you guys..hehe</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:It's you again! Sure...you want to meet Twice..but what about the other fans? Why can't you spare a thought for the others?</div>
+				<div class="cheeky"><img src="img/cheekygirl.png" class="face-shot"><br>Cheeky girl:Well, I am lonely that's why I want to meet them badly...</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:Then you should get in line like everybody else...and not abuse your power and resources just to force Twice to meet you!</div>
+				<div class="cheeky"><img src="img/cheekygirl.png" class="face-shot"><br>Cheeky girl: ...You do have a point...perhaps it's time to re-evaluate my life's choices...but let's end this the proper way..with a..</div>
+				<div class="once"><img src="img/once.jpg" class="face-shot"><br>PA:QUIZ!! Argh..I am so mad now but heck it..bring it on!</div>
+				
+    			<a href="#rest-chap-1-4-challenge" class="ui-btn ui-mini" data-rel="popup" data-position-to="window" data-transition="flow">ACCEPT</a>
+    		</div>
+    		<!-- CONTENTS END -->
+    		
+    		<!-- CHAPTER1-3 CHALLENGE START-->
+			<div data-role="popup" id="rest-chap-1-4-challenge" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+			    <h3>Challenge</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Which album contains the song precious love? <br>(wrong answer will bring you back to previous page)</p>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Page One</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Lane 1</a>
+					<a href="#chapter1-5" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Page 2</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Lane 2</a>
+			    </div>
+			</div>
+			<!-- CHAPTER1-3 CHALLENGE END-->
+    			
+    		<!-- ESCAPE START-->
+			<div data-role="popup" id="rest-chap-1-4" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+			    <h3>Rest</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Are you sure you want to go back to home? Progress will not be saved...</p>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">No</a>
+			        <a href="#home" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Yes</a>
+			    </div>
+			</div>	
+			<!-- ESCAPE END-->
+
+    		<div data-role="footer" data-position="fixed">
+    			<h3>Twice Adventures</h3>
+    		</div>
+    	</div>
+    	<!-- CHAPTER 1-4 PAGE END -->
+    	
+    	
+
+    	<!-- CHAPTER 1-5 PAGE START -->
+    	<div data-role="page" id="chapter1-5">
+    		<div data-role="header" data-position="fixed">
+    			<a href="#rest-chap-1-5" data-icon="home" data-iconpos="notext" data-rel="popup" data-position-to="window" data-transition="flow"></a>
+    			<h1>CHAPTER 1-5</h1>
+    		</div>
+
+    		<!-- CONTENTS START -->
+    		<div data-role="content">
+    			 <div style="text-align:center"><b>*SUCCESS*</b><a data-icon="heart"></a></div>
+    			 <div align="center">~ ~ ~ ~ ~</div>
+    			<div><img src="img/twice-meet1.jpg" width="100%"></div>
+    			After explaining the situation to the bus driver, he immediately drove the girls to the correct meet and greet venue. Cheeky girl apologised to you and the girls for all the inconvenience caused and begged for forgiveness. Twice had forgiven her and made her promise that she need to be more thoughtful next time. On a happier note, the girls managed to reach the venue only 5 minutes late! The fans barely noticed anything amiss or unusual! This is definitely something worth celebrating for!<br>
+				<div><img src="img/twice-meet2.png" width="100%"></div>
+				<div><img src="img/twice-meet3.jpg" width="100%"></div>
+				It was a very successful meet and greet with the fans, all thanks to YOU!
+				
+    			<a href="#chapter1-secret-code" class="ui-btn ui-mini" data-transition="flow">NEXT</a>
+    		</div>
+    		<!-- CONTENTS END -->
+    			
+    		<!-- ESCAPE START-->
+			<div data-role="popup" id="rest-chap-1-5" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+			    <h3>Rest</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Are you sure you want to go back to home? Progress will not be saved...</p>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">No</a>
+			        <a href="#home" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Yes</a>
+			    </div>
+			</div>	
+			<!-- ESCAPE END-->
+
+    		<div data-role="footer" data-position="fixed">
+    			<h3>Twice Adventures</h3>
+    		</div>
+    	</div>
+    	<!-- CHAPTER 1-5 PAGE END -->
+    	
+    	
+    	
+    	<!-- CHAPTER 1 SECRET CODE PAGE START -->
+    	<div data-role="page" id="chapter1-secret-code">
+    		<div data-role="header" data-position="fixed">
+    			<a href="#rest-chap-1-secret" data-icon="home" data-iconpos="notext" data-rel="popup" data-position-to="window" data-transition="flow"></a>
+    			<h1>#1 Secret</h1>
+    		</div>
+    		
+    		<!-- CONTENTS START -->
+    		<div data-role="content">
+    			<div style="text-align:center"><b>CONGRATULATIONS!!!</b></div><br>
+    			You have managed to complete Chapter 1 of Twice Adventures and beat the spoilt brat Cheeky girl!<br>
+    			You have made all the Once very proud of you! Now here is your secret code to the next chapter...<br><br>
+    			*Ahem...save this code some where...you will need it to access the next chapter...<br><br>
+    			*With the code, you can now easily access different chapters from home
+    			<a href="#secret1" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-mini" data-transition="flow">Secret Code</a>
+				
+				<!-- SECRET START-->
+				<div data-role="popup" id="secret1" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+				    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+				    <h3>Code</h3>
+				    </div>
+				    <div role="main" class="ui-content" style="background:white;color:black;">
+				    <p>tzuyu14061999</p>
+				    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">OK</a>
+				    </div>
+				</div>	
+				<!-- SECRET END-->	
+				
+				<a href="#secret-2-access" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-mini" data-transition="flow">Chapter 2</a>
+					<div data-role="popup" id="secret-2-access" data-theme="a" class="ui-corner-all">
+					
+						<form method="post" action="#" data-ajax="false">
+						<label for="name">ENTER CODE : <span></span></label>
+						<input type="text" name="code" id="code-chap-1" placeholder="Secret code">
+						<input type="submit" data-inline="true" value="Submit" data-theme="b">
+						</form>
+					</div>
+				
+    			
+    		</div>
+    		<!-- CONTENTS END -->
+    		
+    		<!-- ESCAPE START-->
+			<div data-role="popup" id="rest-chap-1-secret" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+			    <h3>Rest</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Are you sure you want to go back to home? Progress will not be saved...</p>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">No</a>
+			        <a href="#home" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Yes</a>
+			    </div>
+			</div>	
+			<!-- ESCAPE END-->
+    		
+    		<div data-role="footer" data-position="fixed">
+    			<h3>Twice Adventures</h3>
+    		</div>
+    	</div>
+    	<!-- CHAPTER 1 SECRET CODE PAGE END -->
+    	
+    	
+    	<!-- PORTAL TO ACCESS OTHER CHAPTERS START -->
+    	<div data-role="page" id="portal">
+    		<div data-role="header" data-position="fixed">
+    			<a href="#rest-portal" data-icon="home" data-iconpos="notext" data-rel="popup" data-position-to="window" data-transition="flow"></a>
+    			<h1>PORTAL</h1>
+    		</div>
+    		
+    		<!-- CONTENTS START -->
+    		<div data-role="content">
+    			<div style="text-align:center">Enter the secret code that you have and be directed to the next chapter...</div><br>
+				
+				<a href="#secret-portal-access" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-mini" data-transition="flow">Access Chapter</a>
+					<div data-role="popup" id="secret-portal-access" data-theme="a" class="ui-corner-all">
+						<form method="post" action="#" data-ajax="false">
+						<label for="code">ENTER CODE : <span></span></label>
+						<input type="text" name="code" id="code" placeholder="Secret code">
+						<input type="submit" data-inline="true" value="Submit" data-theme="b">
+						</form>
+					</div>
+	
+    		</div>
+    		<!-- CONTENTS END -->
+    		
+    		<!-- ESCAPE START-->
+			<div data-role="popup" id="rest-portal" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			    <div data-role="header" data-theme="a" style="background:#FFC0CB">
+			    <h3>Rest</h3>
+			    </div>
+			    <div role="main" class="ui-content" style="background:white;color:black;">
+			    <p>Are you sure you want to go back to home? Progress will not be saved...</p>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">No</a>
+			        <a href="#home" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Yes</a>
+			    </div>
+			</div>	
+			<!-- ESCAPE END-->
+    		
+    		<div data-role="footer" data-position="fixed">
+    			<h3>Twice Adventures</h3>
+    		</div>
+    	</div>
+    	<!-- PORTAL TO ACCESS OTHER CHAPTERS END -->
+    	
+    	
+    	
+    </div>
+    
+    <!-- LIBRARIES -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
