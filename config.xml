@@ -41,7 +41,7 @@
 
 <!--  <plugin source="npm" name="cordova-plugin-geolocation" spec="~2.1.0"/>-->
 
-<plugin source="npm" name="cordova-plugin-globalization" spec="~1.0.3"/>
+<!--  <plugin source="npm" name="cordova-plugin-globalization" spec="~1.0.3"/>-->
 
 <plugin source="npm" name="cordova-plugin-inappbrowser" spec="~1.3.0"/>
 
