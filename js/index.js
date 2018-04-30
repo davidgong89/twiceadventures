@@ -1,3 +1,16 @@
+
+function onDeviceReady(){
+    console.log('Device is Ready');
+    document.removeEventListener('deviceready', onDeviceReady, false);
+    
+    // Set AdMobAds options: 
+    admob.setOptions({
+      publisherId:          "ca-app-pub-3940256099942544/6300978111",  // Required 
+    });
+    
+    admob.createBannerView();
+}
+
 document.addEventListener('deviceready', this.onDeviceReady, false);
 
 $('document').ready(function(){
@@ -41,23 +54,4 @@ $('document').ready(function(){
 	});
 
 });
-
-function onDeviceReady(){
-    console.log('Device is Ready');
-    
-    // Set AdMobAds options:
-    admob.setOptions({
-        publisherId:          "ca-app-pub-2624201443777881~7294073535",  // Required
-    });
-}
-
-admob.createBannerView({
-    autoShowBanner: false
-});
-
-function callMeToShowBanners() {
-    admob.showBannerAd(true);
-}
-
-
 
