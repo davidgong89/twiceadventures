@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<widget xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" version="1.0.1" id="com.phonegap.twiceadventures">
+<widget xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" version="1.0.2" id="com.phonegap.twiceadventures">
 
 <name>Twice Adventures</name>
 
