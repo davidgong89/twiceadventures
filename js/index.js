@@ -8,14 +8,16 @@ function onDeviceReady(){
       //publisherId:          "ca-app-pub-3940256099942544/6300978111",  // Required 
     //});
     
+    
+    //BANNER ADS
     admob.createBannerView({
-    	  publisherId:          "ca-app-pub-3940256099942544/6300978111"
+    	  publisherId:          "ca-app-pub-2624201443777881/4650640465"
     	});
     
-    
+  //INTERSTITIAL POP-UP ADS
     admob.requestInterstitialAd({
-    	  publisherId:          "ca-app-pub-3940256099942544~3347511713",
-    	  interstitialAdId:     "ca-app-pub-3940256099942544/1033173712",
+    	  publisherId:          "ca-app-pub-2624201443777881~7294073535",
+    	  interstitialAdId:     "ca-app-pub-2624201443777881/4635996893",
     	  autoShowInterstitial: true
     	});
     
