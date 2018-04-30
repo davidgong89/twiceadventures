@@ -4,10 +4,21 @@ function onDeviceReady(){
     document.removeEventListener('deviceready', onDeviceReady, false);
     
     // Set AdMobAds options: 
-    admob.setOptions({
-      publisherId:          "ca-app-pub-3940256099942544/6300978111",  // Required 
-      interstitialAdId:     "ca-app-pub-3940256099942544/1033173712",  // interstitial Ads
-    });
+    //admob.setOptions({
+      //publisherId:          "ca-app-pub-3940256099942544/6300978111",  // Required 
+    //});
+    
+    admob.createBannerView({
+    	  publisherId:          "ca-app-pub-3940256099942544/6300978111"
+    	});
+    
+    
+    admob.requestInterstitialAd({
+    	  publisherId:          "ca-app-pub-3940256099942544~3347511713",
+    	  interstitialAdId:     "ca-app-pub-3940256099942544/1033173712",
+    	  autoShowInterstitial: true
+    	});
+    
   
     admob.createBannerView();
 }
